@@ -1,0 +1,634 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A648519F2779974A00953D5B /* ViewOrderHistory.swift in Sources */ = {isa = PBXBuildFile; fileRef = A648519E2779974A00953D5B /* ViewOrderHistory.swift */; };
+		A6659265276D341C00E7B651 /* Coffee_CrushApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6659264276D341C00E7B651 /* Coffee_CrushApp.swift */; };
+		A6659267276D341C00E7B651 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6659266276D341C00E7B651 /* ContentView.swift */; };
+		A6659269276D342200E7B651 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6659268276D342200E7B651 /* Assets.xcassets */; };
+		A665926C276D342200E7B651 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A665926B276D342200E7B651 /* Preview Assets.xcassets */; };
+		A6659276276D342200E7B651 /* Coffee_CrushTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6659275276D342200E7B651 /* Coffee_CrushTests.swift */; };
+		A6659280276D342200E7B651 /* Coffee_CrushUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A665927F276D342200E7B651 /* Coffee_CrushUITests.swift */; };
+		A6659282276D342200E7B651 /* Coffee_CrushUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6659281276D342200E7B651 /* Coffee_CrushUITestsLaunchTests.swift */; };
+		A69E0A8A277074080052893B /* PlaceOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A69E0A89277074070052893B /* PlaceOrder.swift */; };
+		A6B17F1A277274FD0079C1E9 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B17F19277274FD0079C1E9 /* Data.swift */; };
+		A6B17F602773119D0079C1E9 /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B17F5F2773119D0079C1E9 /* OrderModel.swift */; };
+		A6B17FE527781FCA0079C1E9 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6B17FE427781FC90079C1E9 /* MenuView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A6659272276D342200E7B651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6659259276D341C00E7B651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6659260276D341C00E7B651;
+			remoteInfo = "Coffee Crush";
+		};
+		A665927C276D342200E7B651 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A6659259276D341C00E7B651 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A6659260276D341C00E7B651;
+			remoteInfo = "Coffee Crush";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A648519E2779974A00953D5B /* ViewOrderHistory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewOrderHistory.swift; sourceTree = "<group>"; };
+		A6659261276D341C00E7B651 /* Coffee Crush.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Coffee Crush.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6659264276D341C00E7B651 /* Coffee_CrushApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_CrushApp.swift; sourceTree = "<group>"; };
+		A6659266276D341C00E7B651 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A6659268276D342200E7B651 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A665926B276D342200E7B651 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A6659271276D342200E7B651 /* Coffee CrushTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee CrushTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A6659275276D342200E7B651 /* Coffee_CrushTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_CrushTests.swift; sourceTree = "<group>"; };
+		A665927B276D342200E7B651 /* Coffee CrushUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Coffee CrushUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A665927F276D342200E7B651 /* Coffee_CrushUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_CrushUITests.swift; sourceTree = "<group>"; };
+		A6659281276D342200E7B651 /* Coffee_CrushUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coffee_CrushUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A69E0A89277074070052893B /* PlaceOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceOrder.swift; sourceTree = "<group>"; };
+		A6B17F19277274FD0079C1E9 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		A6B17F5F2773119D0079C1E9 /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		A6B17FE427781FC90079C1E9 /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A665925E276D341C00E7B651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A665926E276D342200E7B651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6659278276D342200E7B651 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A6659258276D341C00E7B651 = {
+			isa = PBXGroup;
+			children = (
+				A6659263276D341C00E7B651 /* Coffee Crush */,
+				A6659274276D342200E7B651 /* Coffee CrushTests */,
+				A665927E276D342200E7B651 /* Coffee CrushUITests */,
+				A6659262276D341C00E7B651 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A6659262276D341C00E7B651 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A6659261276D341C00E7B651 /* Coffee Crush.app */,
+				A6659271276D342200E7B651 /* Coffee CrushTests.xctest */,
+				A665927B276D342200E7B651 /* Coffee CrushUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A6659263276D341C00E7B651 /* Coffee Crush */ = {
+			isa = PBXGroup;
+			children = (
+				A6B17FE12777F0570079C1E9 /* viewModels */,
+				A6B17FE02777F04C0079C1E9 /* Models */,
+				A6B17FDF2777F0440079C1E9 /* Views */,
+				A6659264276D341C00E7B651 /* Coffee_CrushApp.swift */,
+				A6659268276D342200E7B651 /* Assets.xcassets */,
+				A665926A276D342200E7B651 /* Preview Content */,
+			);
+			path = "Coffee Crush";
+			sourceTree = "<group>";
+		};
+		A665926A276D342200E7B651 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A665926B276D342200E7B651 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A6659274276D342200E7B651 /* Coffee CrushTests */ = {
+			isa = PBXGroup;
+			children = (
+				A6659275276D342200E7B651 /* Coffee_CrushTests.swift */,
+			);
+			path = "Coffee CrushTests";
+			sourceTree = "<group>";
+		};
+		A665927E276D342200E7B651 /* Coffee CrushUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A665927F276D342200E7B651 /* Coffee_CrushUITests.swift */,
+				A6659281276D342200E7B651 /* Coffee_CrushUITestsLaunchTests.swift */,
+			);
+			path = "Coffee CrushUITests";
+			sourceTree = "<group>";
+		};
+		A6B17FDF2777F0440079C1E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A6659266276D341C00E7B651 /* ContentView.swift */,
+				A69E0A89277074070052893B /* PlaceOrder.swift */,
+				A6B17FE427781FC90079C1E9 /* MenuView.swift */,
+				A648519E2779974A00953D5B /* ViewOrderHistory.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A6B17FE02777F04C0079C1E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A6B17F19277274FD0079C1E9 /* Data.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A6B17FE12777F0570079C1E9 /* viewModels */ = {
+			isa = PBXGroup;
+			children = (
+				A6B17F5F2773119D0079C1E9 /* OrderModel.swift */,
+			);
+			path = viewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A6659260276D341C00E7B651 /* Coffee Crush */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6659285276D342200E7B651 /* Build configuration list for PBXNativeTarget "Coffee Crush" */;
+			buildPhases = (
+				A665925D276D341C00E7B651 /* Sources */,
+				A665925E276D341C00E7B651 /* Frameworks */,
+				A665925F276D341C00E7B651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Coffee Crush";
+			productName = "Coffee Crush";
+			productReference = A6659261276D341C00E7B651 /* Coffee Crush.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A6659270276D342200E7B651 /* Coffee CrushTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A6659288276D342200E7B651 /* Build configuration list for PBXNativeTarget "Coffee CrushTests" */;
+			buildPhases = (
+				A665926D276D342200E7B651 /* Sources */,
+				A665926E276D342200E7B651 /* Frameworks */,
+				A665926F276D342200E7B651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A6659273276D342200E7B651 /* PBXTargetDependency */,
+			);
+			name = "Coffee CrushTests";
+			productName = "Coffee CrushTests";
+			productReference = A6659271276D342200E7B651 /* Coffee CrushTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A665927A276D342200E7B651 /* Coffee CrushUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A665928B276D342200E7B651 /* Build configuration list for PBXNativeTarget "Coffee CrushUITests" */;
+			buildPhases = (
+				A6659277276D342200E7B651 /* Sources */,
+				A6659278276D342200E7B651 /* Frameworks */,
+				A6659279276D342200E7B651 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A665927D276D342200E7B651 /* PBXTargetDependency */,
+			);
+			name = "Coffee CrushUITests";
+			productName = "Coffee CrushUITests";
+			productReference = A665927B276D342200E7B651 /* Coffee CrushUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A6659259276D341C00E7B651 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A6659260276D341C00E7B651 = {
+						CreatedOnToolsVersion = 13.2;
+					};
+					A6659270276D342200E7B651 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = A6659260276D341C00E7B651;
+					};
+					A665927A276D342200E7B651 = {
+						CreatedOnToolsVersion = 13.2;
+						TestTargetID = A6659260276D341C00E7B651;
+					};
+				};
+			};
+			buildConfigurationList = A665925C276D341C00E7B651 /* Build configuration list for PBXProject "Coffee Crush" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A6659258276D341C00E7B651;
+			productRefGroup = A6659262276D341C00E7B651 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A6659260276D341C00E7B651 /* Coffee Crush */,
+				A6659270276D342200E7B651 /* Coffee CrushTests */,
+				A665927A276D342200E7B651 /* Coffee CrushUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A665925F276D341C00E7B651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A665926C276D342200E7B651 /* Preview Assets.xcassets in Resources */,
+				A6659269276D342200E7B651 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A665926F276D342200E7B651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6659279276D342200E7B651 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A665925D276D341C00E7B651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A648519F2779974A00953D5B /* ViewOrderHistory.swift in Sources */,
+				A6B17FE527781FCA0079C1E9 /* MenuView.swift in Sources */,
+				A6659267276D341C00E7B651 /* ContentView.swift in Sources */,
+				A6B17F1A277274FD0079C1E9 /* Data.swift in Sources */,
+				A69E0A8A277074080052893B /* PlaceOrder.swift in Sources */,
+				A6659265276D341C00E7B651 /* Coffee_CrushApp.swift in Sources */,
+				A6B17F602773119D0079C1E9 /* OrderModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A665926D276D342200E7B651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6659276276D342200E7B651 /* Coffee_CrushTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6659277276D342200E7B651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6659282276D342200E7B651 /* Coffee_CrushUITestsLaunchTests.swift in Sources */,
+				A6659280276D342200E7B651 /* Coffee_CrushUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A6659273276D342200E7B651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6659260276D341C00E7B651 /* Coffee Crush */;
+			targetProxy = A6659272276D342200E7B651 /* PBXContainerItemProxy */;
+		};
+		A665927D276D342200E7B651 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A6659260276D341C00E7B651 /* Coffee Crush */;
+			targetProxy = A665927C276D342200E7B651 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A6659283276D342200E7B651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A6659284276D342200E7B651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A6659286276D342200E7B651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coffee Crush/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T45QM5FY6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nithish-Nallamjompalli.Coffee-Crush";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A6659287276D342200E7B651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Coffee Crush/Preview Content\"";
+				DEVELOPMENT_TEAM = 8T45QM5FY6;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nithish-Nallamjompalli.Coffee-Crush";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A6659289276D342200E7B651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T45QM5FY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nithish-Nallamjompalli.Coffee-CrushTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coffee Crush.app/Coffee Crush";
+			};
+			name = Debug;
+		};
+		A665928A276D342200E7B651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T45QM5FY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nithish-Nallamjompalli.Coffee-CrushTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Coffee Crush.app/Coffee Crush";
+			};
+			name = Release;
+		};
+		A665928C276D342200E7B651 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T45QM5FY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nithish-Nallamjompalli.Coffee-CrushUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coffee Crush";
+			};
+			name = Debug;
+		};
+		A665928D276D342200E7B651 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8T45QM5FY6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Nithish-Nallamjompalli.Coffee-CrushUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Coffee Crush";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A665925C276D341C00E7B651 /* Build configuration list for PBXProject "Coffee Crush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6659283276D342200E7B651 /* Debug */,
+				A6659284276D342200E7B651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6659285276D342200E7B651 /* Build configuration list for PBXNativeTarget "Coffee Crush" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6659286276D342200E7B651 /* Debug */,
+				A6659287276D342200E7B651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A6659288276D342200E7B651 /* Build configuration list for PBXNativeTarget "Coffee CrushTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A6659289276D342200E7B651 /* Debug */,
+				A665928A276D342200E7B651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A665928B276D342200E7B651 /* Build configuration list for PBXNativeTarget "Coffee CrushUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A665928C276D342200E7B651 /* Debug */,
+				A665928D276D342200E7B651 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A6659259276D341C00E7B651 /* Project object */;
+}
