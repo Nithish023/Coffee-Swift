@@ -160,9 +160,9 @@ struct MenuList: View {
             VStack {
                 Image(image)
                     .resizable()
-                    .frame(width: 150, height: 150, alignment: .center)
+                    .frame(width: 200, height: 200, alignment: .center)
                     .clipShape(Circle())
-                    .shadow(radius: 15)
+                    .shadow(radius: 20)
                 Text(drink)
                     .foregroundColor(Color.black)
                 
